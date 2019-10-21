@@ -1,7 +1,7 @@
 
 public class TheMotivator {
 	private String[] messages = {
-		"you're awesome!", "that's great!", "that's good!", "well, what can I say?"
+		"you're awesome!", "that's great!", "that's good!", "you are ok", "well, what can I say?"
 	};
 
 	
@@ -11,10 +11,12 @@ public class TheMotivator {
 			System.out.println(messages[0]);
 		else if (score > 85)
 			System.out.println(messages[1]);
-		else if (score > 55)
+		else if (score > 75)
 			System.out.println(messages[2]);
-		else
+		else if (score > 55)
 			System.out.println(messages[3]);
+		else
+			System.out.println(messages[4]);
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
