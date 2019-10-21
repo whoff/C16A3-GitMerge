@@ -14,6 +14,7 @@ public class TheMotivator {
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
+		tm.feedback(100);
 		tm.feedback(60);
 	}
 }
