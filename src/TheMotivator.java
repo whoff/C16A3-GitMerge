@@ -1,7 +1,7 @@
 
 public class TheMotivator {
 	private String[] messages = {
-		"You're awesome", "That's great", "That's good ", "Well, what can I say?"
+		"you're awesome!", "that's great!", "that's good!", "well, what can I say?"
 	};
 
 	
